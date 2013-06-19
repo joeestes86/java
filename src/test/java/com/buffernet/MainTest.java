@@ -29,7 +29,7 @@ public class MainTest  {
 
 	@Test
 	public void test() {
-		assertEquals("print should equal hi, Joe! ", "hi, Joe!", Main.printMessage("hi, Joe!"));
+		assertEquals("print should equal hi, Joe! ", "hi, Joe!2", Main.printMessage("hi, Joe!"));
 	}
 
 }
